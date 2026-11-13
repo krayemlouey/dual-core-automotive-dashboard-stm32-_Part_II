@@ -1,0 +1,62 @@
+# Build outputs
+Debug/
+Release/
+build/
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+
+# TouchGFX generated files (keep assets, ignore compiled outputs)
+CM7/TouchGFX/build/
+CM7/TouchGFX/generated/images/
+CM7/TouchGFX/generated/fonts/
+CM7/TouchGFX/generated/texts/
+CM4/TouchGFX/build/
+CM4/TouchGFX/generated/images/
+CM4/TouchGFX/generated/fonts/
+CM4/TouchGFX/generated/texts/
+
+# STM32CubeIDE
+.metadata/
+.settings/
+STM32CubeIDE/CM7/Debug/
+STM32CubeIDE/CM7/Release/
+STM32CubeIDE/CM4/Debug/
+STM32CubeIDE/CM4/Release/
+
+# IDE files
+*.launch
+.cproject
+.project
+*.mk
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Map tiles (downloaded at runtime, do not commit)
+tiles/
+tiles.zip
+
+# Doxygen generated documentation (très lourde, inutile sur GitHub)
+Middlewares/Third_Party/LwIP/doc/doxygen/output/
+
+# Fichiers de travail internes / dumps / sauvegardes
+project_dump.md
+project_dump_v2.md
+old_main.c
+old_msp.c
+backup_STM32H747I-DISCO.ioc
+temp.png
+
+# Patches de développement
+patch_*.py
+
+# Fichiers temporaires Windows
+Thumbs.db
+Desktop.ini
+*.tmp
